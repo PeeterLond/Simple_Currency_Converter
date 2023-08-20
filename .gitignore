@@ -1,0 +1,65 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+/.jpb/jpb-settings.xml
+/src/main/generated/
+
+
+### JetBrains Academy ###
+
+### kursusega seotud versioniseerimiseks mittevajalikud failid (teooriaploki harjutused, jne) ###
+/course-info.yaml
+/course-remote-info.yaml
+task.html
+task-info.yaml
+task-remote-info.yaml
+lesson-info.yaml
+*Test.java
+*Tests.java
+/Topics
+
+
+### Neid siin all peaksid veidi mudima ###
+/Simple Currency Converter/*            # (*) abil - vali kõik (include), mis on kausta all
+!/Simple Currency Converter/task/       # (!) abil - ära vali kaust (exclude)
+/Simple Currency Converter/task/test/   # vali kaust (include)
+
+/node_modules/
+/package-lock.json
+/Simple Currency Converter/task/tests.py
+/requirements.txt
+/package.json
